@@ -1,0 +1,30 @@
+/********************/
+/* MOBILE MENU */
+/*********************/
+#mobile-menu{
+    display: block;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+
+.line-1, .line-2, .line-3{
+    width: 35px;
+    height: 5px;
+    background: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .line-1{
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .line-2{
+    opacity: 0;
+}
+
+.change .line-3{
+    transform: translate(0, -11px) rotate(45deg);
+}

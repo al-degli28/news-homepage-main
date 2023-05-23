@@ -1,0 +1,16 @@
+/********************/
+/* FOURTH SECTION */
+/*********************/
+#fourth-section{
+    display: flex;
+    flex-wrap: wrap;
+
+    .item{
+        display: flex;
+        flex: 0 1 40%;
+
+        .caption{
+            width: 200px;
+        }
+    }
+}

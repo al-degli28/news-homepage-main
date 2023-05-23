@@ -1,0 +1,9 @@
+@import 'third-section-default';
+
+@media only screen and (min-width: $br-md){
+    @import 'third-section-md-up';
+}
+
+@media only screen and (max-width: $br-md){
+    @import 'third-section-md-down';
+}

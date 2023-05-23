@@ -1,0 +1,5 @@
+@import 'first-section-default';
+
+@media only screen and (min-width: $br-md){
+    @import 'first-section-md-up';
+}

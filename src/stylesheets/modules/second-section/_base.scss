@@ -1,0 +1,9 @@
+@import 'second-section-default';
+
+@media only screen and (min-width: $br-md){
+    @import 'second-section-md-up';
+}
+
+@media only screen and (max-width: $br-md){
+    @import 'second-section-md-down';
+}

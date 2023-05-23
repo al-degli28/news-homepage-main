@@ -1,0 +1,18 @@
+/********************/
+/* SECOND SECTION */
+/*********************/
+#second-section{
+    .caption{
+        h1, p{
+            width: 50%;
+        }
+
+        h1{
+            float: left;
+        }
+
+        p{
+            float: right;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+/********************/
+/* FOURTH SECTION */
+/*********************/
+#fourth-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0 0 0;
+
+    .item{
+        display: flex;
+        margin: 0 0 15px 0;
+
+        .image{
+            line-height: 0;
+            margin: 0 0 30px 0;
+            width: 140px;
+
+            img{
+                width: 120px;
+            }
+        }
+
+        .caption{
+            h1{
+                color: $secondary-neutral-color;
+                font-weight: bold;
+                font-size: 30px;
+            }
+
+            p{
+                &:first-of-type{
+                    color: $quaternary-neutral-color;
+                    font-weight: bold;
+                }
+
+                &:last-child{
+                    color: $tertiary-neutral-color;
+                }
+            }
+        }
+
+        
+    }
+}

@@ -1,0 +1,29 @@
+/********************/
+/* NAVBAR */
+/*********************/
+nav{
+    display: none;
+    box-shadow: 0 0 10px $secondary-neutral-color;
+    padding: 40px;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+
+
+    ul{
+        padding: 0;
+
+        li{
+            margin: 20px 0;
+
+            a{
+                color: $tertiary-neutral-color;
+            }
+            
+        }
+    }
+}

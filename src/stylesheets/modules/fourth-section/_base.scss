@@ -1,0 +1,14 @@
+@import 'fourth-section-default';
+
+@media only screen and (min-width: $br-sm){
+    @import 'fourth-section-sm-up';
+}
+
+@media only screen and (max-width: $br-sm){
+    @import 'fourth-section-sm-down';
+}
+
+@media only screen and (min-width: $br-md){
+    @import 'fourth-section-md-up';
+}
+

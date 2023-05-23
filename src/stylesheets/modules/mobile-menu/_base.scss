@@ -1,0 +1,5 @@
+@import 'mobile-menu-default';
+
+@media only screen and (min-width: $br-md){
+    @import 'mobile-menu-md-up';
+}
